@@ -1,0 +1,95 @@
+.profileJrCard {
+    margin: 0 auto;
+    border: none;
+    color:#181818;
+}
+
+.profileJrCardTwo {
+    
+    border: none;
+    color:#181818
+}
+
+.slash {
+    color:#b1afaf;
+
+}
+
+.profileInfoBtn {
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(154, 152, 152);
+    padding-left: 45px;
+    padding-right: 45px
+}
+
+.profileInfoBtnTwo {
+    font-size: 18px;
+    font-weight: 600;
+    color:white;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #4caf50;
+    margin-bottom: 0px;
+    margin-right:-5%
+}
+
+/* .nameInputs{
+   width: 
+} */
+
+/* .form-group{
+    margin-bottom: 1em !important;
+} */
+
+.addedHeight{
+    padding-bottom: 1rem !important;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.home-center-text{
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.profile-banner-img{
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    object-fit: cover;
+    position: relative;
+}
+
+.profile-name-font{
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+
+.jr-card{
+    height: 100%;
+}
+
+.rs-athlete-tag{
+    border-left: solid 9px #245dbc;
+    border-bottom-left-radius: 9px; 
+}
+
+.rs-advocate-tag{
+    border-left: solid 9px orange;
+    border-bottom-left-radius: 9px;
+}
+
+.profileButton:hover{
+    background-color: null !important;
+    color: null !important
+
+}

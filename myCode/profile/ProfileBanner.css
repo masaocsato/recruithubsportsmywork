@@ -1,0 +1,160 @@
+
+.profileInfoContainer{
+    position: absolute;
+    top: -90px;
+}
+
+.profileInfo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:4px solid #fff;
+    background-color: #fff;
+}
+
+.photoBtn{
+position: absolute;
+top: 0%;
+width: 50px;
+height: 50px;
+border-radius: 25px;
+background-color: #4caf50;
+border:4px solid #fff;
+    }
+
+.profileInfo-portrait{
+    position: relative;
+    top:-90px;
+}
+.profileInfo-info{
+    position: relative;
+    top: 0px;
+}@media only screen and (min-width: 767px){
+    .profileInfo-info{
+        width: 100%;
+        position: relative;
+        top: 50px
+    }
+}
+
+
+
+.profileBannerButtonOpacity {
+    opacity: .3;
+}
+
+.profileCarouselImage {
+    border-radius: 5px;
+}
+
+.profileButtonPressedAnimation:active {
+    background: radial-gradient(white, rgb(192, 192, 192));
+}
+
+
+.img-grid button {
+    position: absolute;
+    bottom: 10%;
+    opacity: 0;
+    z-index: -1;
+}
+
+.img-profile button {
+    position: absolute;
+    right: 42%;
+    bottom: 40%;
+    opacity: 0;
+    z-index: -1;
+}
+
+.img-profile:hover button {
+    opacity: 1;
+    z-index: 1;
+}
+
+.img-profile .img-grid-item:hover  {
+    opacity: 1;
+
+}
+.img-grid .img-grid-item:hover  {
+    opacity: .5;
+
+}
+.img-grid:hover button {
+    opacity: 1;
+    z-index: 1;
+}
+
+.vert-center-right {
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    left: 5%;
+}
+.vert-center-left {
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    right: 5%;
+
+}
+ .rs-btn-bottom{
+     position: absolute;
+     bottom: 0px;
+ }
+
+.rs-full-height{
+    height:100%
+}
+
+.parent {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}@media only screen and (min-width: 400px){
+    .parent{
+        overflow: visible;
+        position: relative;
+        width: 100%;
+    }
+}
+
+.rs-btn-primary-light{
+    background-color: #4caf50;
+    color: white;
+    border-color:#4caf50;
+}
+
+.rs-btn-primary-light:hover{
+    background-color: #388e3c;
+    color: white;
+    border-color:#388e3c;
+}
+
+.rs-select-size{
+   height: 33.5px !important;
+}
+.rs-user-pic{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    display: block;
+    border: 1px solid;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.link-text{
+
+    color: #5c5c5c;
+}
+
+.link-text:hover{
+    text-decoration: none;
+    color: black;
+}
