@@ -2,4 +2,4 @@
 some of the work I did on RecruitHubSports
 
 
-! [] (editProfile.gif)
+![](editProfile.gif)
